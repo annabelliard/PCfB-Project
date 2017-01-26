@@ -5,14 +5,13 @@ r:
   - "3.3.0"
   
 install:
-  - Rscript -e 'install.packages("devtools");devtools::install_deps("ggplot2")'
-  - Rscript -e 'devtools::install_deps("ggplot2")'
-  - Rscript -e 'devtools::install_deps("ggmap")'
-  - Rscript -e 'devtools::install_deps("mapdata")'
-  - Rscript -e 'devtools::install_deps("maps")'
-  - Rscript -e 'devtools::install_deps("fields")'
-  - Rscript -e 'devtools::install_deps("mapplots")'
-  - Rscript -e 'devtools::install_deps("marmap")'
+  - Rscript -e 'install.packages("ggplot2")'
+  - Rscript -e 'install.packages("ggmap")'
+  - Rscript -e 'install.packages("mapdata")'
+  - Rscript -e 'install.packages("maps")'
+  - Rscript -e 'install.packages("fields")'
+  - Rscript -e 'install.packages("mapplots")'
+  - Rscript -e 'install.packages("marmap")'
 script:
   - Rscript -e 'devtools::check("ggplot2")'
   - Rscript -e 'devtools::check("ggmap")'
