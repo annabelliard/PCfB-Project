@@ -3,13 +3,22 @@ sudo: false
 cache: packages
 r:
   - "3.3.0"
-r_packages:
- - ggplot2
- - ggmap
- - mapdata
- - maps
- - fields
- - mapplots
- - marmap
+  
+install:
+  - Rscript -e 'devtools::install_deps("ggplot2")'
+  - Rscript -e 'devtools::install_deps("ggmap")'
+  - Rscript -e 'devtools::install_deps("mapdata")'
+  - Rscript -e 'devtools::install_deps("maps")'
+  - Rscript -e 'devtools::install_deps("fields")'
+  - Rscript -e 'devtools::install_deps("mapplots")'
+  - Rscript -e 'devtools::install_deps("marmap")'
+script:
+  - Rscript -e 'devtools::check("ggplot2")'
+  - Rscript -e 'devtools::check("ggmap")'
+  - Rscript -e 'devtools::check("mapdata")'
+  - Rscript -e 'devtools::check("maps")'
+  - Rscript -e 'devtools::check("fields")'
+  - Rscript -e 'devtools::check("mapplots")'
+  - Rscript -e 'devtools::check("marmap")
 script: 
  - ./MapProject.R
