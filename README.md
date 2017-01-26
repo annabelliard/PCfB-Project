@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Aoife10/PCfB-Project.svg?branch=master)](https://travis-ci.org/Aoife10/PCfB-Project)
+
 # PCfB-Project
 Colour maps showing genetic diversity of seagrass
 
