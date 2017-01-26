@@ -1,6 +1,6 @@
 dist: trusty
-language: R
-R:
+language: r
+r:
   - "3.3.0"
 install: true
 script: 
