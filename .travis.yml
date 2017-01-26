@@ -1,3 +1,4 @@
+dist: trusty
 language: R
 R:
   - "3.3.0"
