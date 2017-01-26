@@ -5,7 +5,7 @@ r:
   - "3.3.0"
   
 install:
-  - Rscript -e 'install.packages("devtools");devtools::install_deps("RPackage")'
+  - Rscript -e 'install.packages("devtools");devtools::install_deps("ggplot2")'
   - Rscript -e 'devtools::install_deps("ggplot2")'
   - Rscript -e 'devtools::install_deps("ggmap")'
   - Rscript -e 'devtools::install_deps("mapdata")'
