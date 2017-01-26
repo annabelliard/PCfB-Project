@@ -1,7 +1,15 @@
-dist: trusty
 language: r
+sudo: false
+cache: packages
 r:
   - "3.3.0"
-install: true
+r_packages:
+ - ggplot2
+ - ggmap
+ - mapdata
+ - maps
+ - fields
+ - mapplots
+ - marmap
 script: 
  - ./MapProject.R
