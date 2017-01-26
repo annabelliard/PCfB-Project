@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/Aoife10/PCfB-Project.svg?branch=master)](https://travis-ci.org/Aoife10/PCfB-Project)
 
 # PCfB-Project
-Colour maps showing genetic diversity of seagrass
 
 Aim: Create a colour-scaled map showing the level of genetic diversity of different populations of Posidonia oceanica using data from Jahnke et al., (2015) and create maps showing the scale of human impact on the Meditteranean with data from Micheli et al.,(2013)
 
