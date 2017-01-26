@@ -1,0 +1,6 @@
+language: R
+R:
+  - "3.3.0"
+install: true
+script: 
+ - ./MapProject.R
